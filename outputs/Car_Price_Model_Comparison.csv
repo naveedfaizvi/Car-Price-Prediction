@@ -1,0 +1,4 @@
+Model,MAE,RMSE,R2,CV_MAE,Best_Params
+Random Forest,316781.5034627832,1159949.24974862,0.8074108337507322,329229.19408133614,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__n_estimators': 100}"
+Gradient Boosting,345235.74363082286,1020697.2760284406,0.8508759163910642,359352.7279443126,"{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200}"
+Linear Regression,1181260.8297052323,2932424.609397139,-0.23085696468727734,4853613.571857187,{'model__fit_intercept': False}
